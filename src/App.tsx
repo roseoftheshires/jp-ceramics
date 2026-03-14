@@ -1,7 +1,7 @@
-import JPoulsenCeramicsHomepage from "./JpoulsonHomepage"
+import JPoulsenCeramicsHomepage from "./JpoulsonHomepage";
 
 function App() {
-  return <JPoulsenCeramicsHomepage />
+  return <JPoulsenCeramicsHomepage />;
 }
 
-export default App
+export default App;
