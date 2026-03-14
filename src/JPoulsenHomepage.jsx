@@ -1,5 +1,5 @@
 
-export default function JPoulsenCeramicsHomepage() {
+export default function JPoulsenHomepage() {
   const featuredProjects = [
     {
       title: 'Luxury Bathrooms',
