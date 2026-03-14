@@ -1,7 +1,7 @@
-import JpoulsonHomepage from "./JpoulsonHomepage"
+import JPoulsenCeramicsHomepage from "./JpoulsonHomepage"
 
 function App() {
-  return <JpoulsonHomepage />
+  return <JPoulsenCeramicsHomepage />
 }
 
 export default App
