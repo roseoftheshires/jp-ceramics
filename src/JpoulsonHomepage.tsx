@@ -3,18 +3,15 @@ export default function JPoulsenCeramicsHomepage() {
   const featuredProjects = [
     {
       title: "Luxury Bathrooms",
-      image:
-        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1400&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1400&auto=format&fit=crop",
     },
     {
       title: "Walk-in Showers",
-      image:
-        "https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=1400&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=1400&auto=format&fit=crop",
     },
     {
       title: "Kitchen Tiling",
-      image:
-        "https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1400&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1400&auto=format&fit=crop",
     },
   ];
 
@@ -25,49 +22,37 @@ export default function JPoulsenCeramicsHomepage() {
     },
     {
       title: "Walk-in Showers & Wet Rooms",
-      text: "Clean, modern shower spaces with carefully finished large-format porcelain and stone-effect tiles.",
+      text: "Clean, modern shower spaces with carefully finished large-format porcelain tiles.",
     },
     {
       title: "Kitchen Tiling",
-      text: "Kitchen floors, splashbacks and contemporary feature finishes designed to elevate the whole room.",
+      text: "Kitchen floors, splashbacks and contemporary feature finishes.",
     },
     {
       title: "Large Format Tiles",
-      text: "Precise installation of large porcelain tiles and slab-style finishes for a premium architectural look.",
+      text: "Precise installation of large porcelain tiles for a premium architectural finish.",
     },
     {
       title: "Floor Tiling",
-      text: "Durable, level and beautifully finished tiled floors for kitchens, bathrooms and open-plan spaces.",
+      text: "Durable, level and beautifully finished tiled floors.",
     },
     {
       title: "Preparation & Finishing",
-      text: "Careful preparation, waterproofing and finishing work to ensure the final result looks right and lasts.",
+      text: "Careful preparation, waterproofing and finishing work.",
     },
-  ];
-
-  const reasons = [
-    "Attention to detail on every installation",
-    "Clean, professional workmanship",
-    "Specialists in luxury bathrooms and kitchens",
-    "Large-format porcelain and feature tile experience",
-    "Reliable communication from quote to completion",
-    "Based in Northamptonshire and covering surrounding areas",
   ];
 
   const testimonials = [
     {
-      quote:
-        "Fantastic workmanship and a brilliant finish. The bathroom looks completely transformed.",
+      quote: "Fantastic workmanship and a brilliant finish. The bathroom looks completely transformed.",
       name: "Bathroom Client",
     },
     {
-      quote:
-        "Professional, tidy and clearly takes pride in the work. We are delighted with the kitchen tiling.",
+      quote: "Professional, tidy and clearly takes pride in the work.",
       name: "Kitchen Client",
     },
     {
-      quote:
-        "The quality of the tiling is outstanding. Clean lines, perfect cuts and a really premium final look.",
+      quote: "Outstanding tiling quality and a premium finish.",
       name: "Home Renovation Client",
     },
   ];
@@ -77,8 +62,6 @@ export default function JPoulsenCeramicsHomepage() {
     "https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=1200&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?q=80&w=1200&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?q=80&w=1200&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1200&auto=format&fit=crop",
   ];
 
   const areas = [
@@ -116,7 +99,6 @@ export default function JPoulsenCeramicsHomepage() {
           <nav className="hidden gap-8 text-sm font-medium lg:flex">
             <a href="#projects">Projects</a>
             <a href="#services">Services</a>
-            <a href="#about">Why Choose Us</a>
             <a href="#contact">Contact</a>
           </nav>
 
@@ -148,7 +130,7 @@ export default function JPoulsenCeramicsHomepage() {
 
             <p className="mt-6 max-w-xl text-lg">
               High-end wall and floor tiling for bathrooms, kitchens and modern
-              interior spaces — delivered with clean lines and premium finish.
+              interior spaces.
             </p>
 
             <div className="mt-8 flex gap-4">
@@ -169,16 +151,15 @@ export default function JPoulsenCeramicsHomepage() {
 
       <section id="projects" className="mx-auto max-w-[1400px] px-6 py-20">
 
-        <h2 className="font-serif text-4xl font-semibold">Recent Installations</h2>
+        <h2 className="font-serif text-4xl font-semibold">
+          Recent Installations
+        </h2>
 
         <div className="mt-10 grid gap-6 lg:grid-cols-3">
           {featuredProjects.map((p) => (
             <div key={p.title} className="overflow-hidden rounded-3xl bg-white shadow">
 
-              <img
-                src={p.image}
-                className="h-80 w-full object-cover"
-              />
+              <img src={p.image} className="h-80 w-full object-cover" />
 
               <div className="p-6">
                 <h3 className="font-serif text-2xl">{p.title}</h3>
@@ -196,7 +177,9 @@ export default function JPoulsenCeramicsHomepage() {
 
         <div className="mx-auto max-w-[1400px] px-6">
 
-          <h2 className="font-serif text-4xl font-semibold">Services</h2>
+          <h2 className="font-serif text-4xl font-semibold">
+            Services
+          </h2>
 
           <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
 
@@ -217,7 +200,7 @@ export default function JPoulsenCeramicsHomepage() {
 
       {/* GALLERY */}
 
-      <section id="gallery" className="bg-[#f8fafc] py-20">
+      <section className="bg-[#f8fafc] py-20">
 
         <div className="mx-auto max-w-[1400px] px-6">
 
