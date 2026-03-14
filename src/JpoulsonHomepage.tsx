@@ -9,7 +9,7 @@ export default function JpoulsonHomepage() {
       textAlign: "center"
     }}>
       <h1>JP Ceramics</h1>
-      <p>React preview is working 🎉</p>
+      <p>React preview is working woohoo! 🎉</p>
     </div>
   )
 }
